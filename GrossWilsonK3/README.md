@@ -16,6 +16,7 @@ been proved. They have blind read-backs and are uploaded to Prove2Me as a draft 
 | `Definitions/Def_GrossWilsonK3_Distances.lean` | §4, §6 | Fibre integrals, Riemannian distance, McLean's metric `W₀⁻¹ dy ⊗ dȳ` on the base |
 | `Definitions/Def_GrossWilsonK3_GromovHausdorff.lean` | Definition 6.1 | Gromov–Hausdorff distance via approximation maps |
 | `Definitions/Def_GrossWilsonK3_OoguriVafa.lean` | §3 | The periodic harmonic function `V₀`, its partial sums `T_j`, and the Bessel function `K₀` |
+| `Definitions/Def_GrossWilsonK3_CanonicalCoords.lean` | §2, §4 | Holomorphic canonical coordinates `(x, y)`: Wirtinger derivatives, `S¹`-invariant Ricci-flat metrics in canonical form, `I₁` period data, `W₀`, `b₀`, the frame `ϑ_v, ϑ_h`, `i∂∂̄`, Hölder norms (for Proposition 2.8 and Lemma 4.1, in progress) |
 | `Theorems/Thm_GrossWilsonK3_thm_6_4.lean` | Theorem 6.4 | Goal: Gromov–Hausdorff convergence of `(Xᵢ, εᵢωᵢ)` to `ℙ¹` with McLean's metric |
 | `Theorems/Thm_GrossWilsonK3_lemma_3_1_{a,b,c,d}.lean` | Lemma 3.1(a)–(d) | Convergence, Bessel expansion, exponential decay and positivity of `V₀` |
 
