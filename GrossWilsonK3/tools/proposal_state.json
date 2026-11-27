@@ -1,0 +1,18 @@
+{
+  "proposal_id": "3bd49efd-c7cb-4fa1-8d58-8b6457deb969",
+  "items": {
+    "def_Geometry": "7d1571fb-a60b-4c5b-87e8-3ff57bfd4e53",
+    "def_Distances": "af0a33d1-19d6-40f2-8d2d-264a6669a356",
+    "def_GromovHausdorff": "b80622a9-b154-42ae-8490-d621bcaa71f0",
+    "def_OoguriVafa": "10e0a6a2-d187-4383-924e-9a782bef936a",
+    "thm_lemma_3_1_a": "ad3f31c9-405e-41df-b419-a9ccd7639e0e",
+    "thm_lemma_3_1_b": "3f671bb5-3ae9-4db4-ae48-52507ddd9162",
+    "thm_lemma_3_1_c": "22da0533-4bf5-48c8-84bf-5ac069aaa949",
+    "thm_lemma_3_1_d": "e5afbcb6-2180-487b-a263-65bd012e3120",
+    "thm_thm_6_4": "a3d0c77a-07ec-4734-b34b-fba0d1a04e17",
+    "def_CanonicalCoords": "c9776229-e545-422b-9e06-32234ab895ee",
+    "thm_prop_2_8": "ac088a00-26e7-4231-b430-fb3d021ee52c",
+    "thm_lemma_4_1_a": "9d73a06e-0cdd-4d10-83f9-024eedf82987",
+    "thm_lemma_4_1_b": "4517dcdd-dc63-4727-be21-2aa5119523a7"
+  }
+}
