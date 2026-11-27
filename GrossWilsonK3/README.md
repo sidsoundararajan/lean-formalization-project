@@ -16,8 +16,10 @@ been proved. They have blind read-backs and are uploaded to Prove2Me as a draft 
 | `Definitions/Def_GrossWilsonK3_Distances.lean` | §4, §6 | Fibre integrals, Riemannian distance, McLean's metric `W₀⁻¹ dy ⊗ dȳ` on the base |
 | `Definitions/Def_GrossWilsonK3_GromovHausdorff.lean` | Definition 6.1 | Gromov–Hausdorff distance via approximation maps |
 | `Definitions/Def_GrossWilsonK3_OoguriVafa.lean` | §3 | The periodic harmonic function `V₀`, its partial sums `T_j`, and the Bessel function `K₀` |
-| `Definitions/Def_GrossWilsonK3_CanonicalCoords.lean` | §2, §4 | Holomorphic canonical coordinates `(x, y)`: Wirtinger derivatives, `S¹`-invariant Ricci-flat metrics in canonical form, `I₁` period data, `W₀`, `b₀`, the frame `ϑ_v, ϑ_h`, `i∂∂̄`, Hölder norms (for Proposition 2.8 and Lemma 4.1, in progress) |
+| `Definitions/Def_GrossWilsonK3_CanonicalCoords.lean` | §2, §4 | Holomorphic canonical coordinates `(x, y)`: Wirtinger derivatives, `S¹`-invariant Ricci-flat metrics in canonical form, `I₁` period data, `W₀`, `b₀`, the frame `ϑ_v, ϑ_h`, `i∂∂̄`, Hölder norms |
 | `Theorems/Thm_GrossWilsonK3_thm_6_4.lean` | Theorem 6.4 | Goal: Gromov–Hausdorff convergence of `(Xᵢ, εᵢωᵢ)` to `ℙ¹` with McLean's metric |
+| `Theorems/Thm_GrossWilsonK3_prop_2_8.lean` | Proposition 2.8 | `S¹`-invariant Ricci-flat metrics: `Wᵢ → 0` and `εᵢ⁻¹ Wᵢ Im τ → 1` |
+| `Theorems/Thm_GrossWilsonK3_lemma_4_1_{a,b}.lean` | Lemma 4.1 | `i∂∂̄`-lemma on `X_{U*}` near an `I₁` fibre, and its Hölder estimate |
 | `Theorems/Thm_GrossWilsonK3_lemma_3_1_{a,b,c,d}.lean` | Lemma 3.1(a)–(d) | Convergence, Bessel expansion, exponential decay and positivity of `V₀` |
 
 ## Encoding choices worth checking
@@ -36,9 +38,10 @@ been proved. They have blind read-backs and are uploaded to Prove2Me as a draft 
 
 ## Not yet formalized
 
-Theorems 4.4, 4.5 and 5.6, Lemmas 5.1–5.5, and Propositions 2.8, 3.2, 3.5 and 3.8 are not stated
-yet. They need infrastructure that Mathlib does not have, such as the Levi-Civita curvature tensor
-on manifolds, Hölder norms in canonical coordinates, and the semi-flat and Ooguri–Vafa metrics.
+Propositions 3.2, 3.5 and 3.8, Corollary 3.7, Lemma 4.3, Theorems 4.4, 4.5 and 5.6, and Lemmas
+5.1–5.5 are not stated yet. They need infrastructure that Mathlib does not have: curvature, Ricci
+and Laplacian on manifolds, integration over the K3, the Gibbons–Hawking / Ooguri–Vafa metric, and
+the global semi-flat metric. See [PLAN.md](PLAN.md) for the layered plan.
 
 ## Building
 
