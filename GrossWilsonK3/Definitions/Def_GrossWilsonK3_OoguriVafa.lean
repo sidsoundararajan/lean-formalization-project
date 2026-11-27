@@ -13,7 +13,7 @@ open Filter Real MeasureTheory Set
 
 noncomputable section
 
-namespace GrossWilson
+namespace GrossWilsonK3
 
 /-- `ℝ³`, with coordinates `(u, y₁, y₂)`. -/
 abbrev E3 : Type := EuclideanSpace ℝ (Fin 3)
@@ -43,4 +43,4 @@ def ovDomain (ε : ℝ) : Set E3 :=
 /-- `|y| = √(y₁² + y₂²)` for `p = (u, y₁, y₂)`. -/
 def yNorm (p : E3) : ℝ := Real.sqrt (p 1 ^ 2 + p 2 ^ 2)
 
-end GrossWilson
+end GrossWilsonK3

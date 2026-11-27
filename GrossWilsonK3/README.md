@@ -6,7 +6,7 @@ Lean 4 / Mathlib statements for a [Prove2Me](https://prove2.me) mission formaliz
 > J. Differential Geom. 55 (2000), 475–546. [arXiv:math/0008018](https://arxiv.org/abs/math/0008018) (v3 used).
 
 This is a **draft**: statements only (every theorem ends in `sorry`). The statements have not yet
-been independently audited against the paper or uploaded to Prove2Me.
+been proved. They have blind read-backs and are uploaded to Prove2Me as a draft mission proposal awaiting review.
 
 ## Contents
 
@@ -17,7 +17,7 @@ been independently audited against the paper or uploaded to Prove2Me.
 | `Definitions/Def_GrossWilsonK3_GromovHausdorff.lean` | Definition 6.1 | Gromov–Hausdorff distance via approximation maps |
 | `Definitions/Def_GrossWilsonK3_OoguriVafa.lean` | §3 | The periodic harmonic function `V₀`, its partial sums `T_j`, and the Bessel function `K₀` |
 | `Theorems/Thm_GrossWilsonK3_thm_6_4.lean` | Theorem 6.4 | Goal: Gromov–Hausdorff convergence of `(Xᵢ, εᵢωᵢ)` to `ℙ¹` with McLean's metric |
-| `Theorems/Thm_GrossWilsonK3_lemma_3_1.lean` | Lemma 3.1(a)–(d) | Convergence, Bessel expansion, exponential decay and positivity of `V₀` |
+| `Theorems/Thm_GrossWilsonK3_lemma_3_1_{a,b,c,d}.lean` | Lemma 3.1(a)–(d) | Convergence, Bessel expansion, exponential decay and positivity of `V₀` |
 
 ## Encoding choices worth checking
 

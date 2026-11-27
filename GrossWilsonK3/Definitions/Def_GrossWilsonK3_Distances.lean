@@ -17,7 +17,7 @@ open Set MeasureTheory
 
 noncomputable section
 
-namespace GrossWilson
+namespace GrossWilsonK3
 
 variable {M : Type*} [TopologicalSpace M] [ChartedSpace E4 M]
 
@@ -106,4 +106,4 @@ def riemDist (g : M → E4 → E4 → ℝ) (x y : M) : ℝ :=
     ∫⁻ t in Icc (0 : ℝ) 1,
       ENNReal.ofReal (Real.sqrt (g (γ t) (curveVel γ t) (curveVel γ t)))).toReal
 
-end GrossWilson
+end GrossWilsonK3

@@ -6,7 +6,7 @@ import Definitions.Def_GrossWilsonK3_GromovHausdorff
 open scoped Manifold ContDiff
 open Filter Topology
 
-namespace GrossWilson
+namespace GrossWilsonK3
 
 /-- Gross–Wilson, Theorem 6.4.  `(M, J₀, Ω₀)` is a K3 surface with an elliptic fibration
 `j : M → ℙ¹` that has a holomorphic section and only `I₁` singular fibres.  The surfaces `Xᵢ`
@@ -32,4 +32,4 @@ theorem thm_6_4
       (mcLeanDist J₀ Ω₀ j) := by
   sorry
 
-end GrossWilson
+end GrossWilsonK3
