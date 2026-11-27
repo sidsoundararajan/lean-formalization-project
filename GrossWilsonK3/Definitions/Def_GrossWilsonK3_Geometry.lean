@@ -15,7 +15,7 @@ open Set
 
 noncomputable section
 
-namespace GrossWilson
+namespace GrossWilsonK3
 
 /-- The model vector space `ℝ⁴` of a real 4-manifold. -/
 abbrev E4 : Type := EuclideanSpace ℝ (Fin 4)
@@ -199,4 +199,4 @@ def pullbackBase (j : M → OnePoint ℂ) (α : BaseTwoForm) (x : M) (u v : E4) 
     α.a₀ (affC (j x)) *
       ((areaC (dC (affC ∘ j) x u) (dC (affC ∘ j) x v) : ℝ) : ℂ)
 
-end GrossWilson
+end GrossWilsonK3

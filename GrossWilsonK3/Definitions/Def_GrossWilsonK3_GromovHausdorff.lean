@@ -11,7 +11,7 @@ open Filter
 
 noncomputable section
 
-namespace GrossWilson
+namespace GrossWilsonK3
 
 /-- Definition 6.1: the Gromov–Hausdorff distance between `(X, dX)` and `(Y, dY)` is at most `δ`
 (in the paper's strict-inequality form): there are maps `f : X → Y` and `g : Y → X`, not
@@ -33,4 +33,4 @@ holds eventually). -/
 def GHConverges {X Y : Type*} (d : ℕ → X → X → ℝ) (dY : Y → Y → ℝ) : Prop :=
   ∀ δ : ℝ, 0 < δ → ∀ᶠ i in atTop, GHWithin (d i) dY δ
 
-end GrossWilson
+end GrossWilsonK3
